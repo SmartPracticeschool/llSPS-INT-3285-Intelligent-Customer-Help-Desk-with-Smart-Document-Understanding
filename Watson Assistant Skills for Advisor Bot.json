@@ -489,22 +489,22 @@
       "intent": "General_Greetings",
       "examples": [
         {
-          "text": "Hello I am looking for some help here"
+          "text": "Have you been well?"
         },
         {
-          "text": "Hello"
+          "text": "You there"
         },
         {
-          "text": "Hey how are you doing"
-        },
-        {
-          "text": "Hey there all"
-        },
-        {
-          "text": "Hey there"
+          "text": "Who is this?"
         },
         {
           "text": "What's up?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "What's new?"
         },
         {
           "text": "Hey twin"
@@ -540,31 +540,31 @@
           "text": "Ok take me back"
         },
         {
-          "text": "Who is this?"
-        },
-        {
-          "text": "You there"
-        },
-        {
-          "text": "Good day"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "Good evening"
+          "text": "Good to see you"
         },
         {
           "text": "Good morning"
         },
         {
-          "text": "Good to see you"
+          "text": "Good evening"
         },
         {
-          "text": "Greetings"
+          "text": "Good day"
         },
         {
-          "text": "Have you been well?"
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
         },
         {
           "text": "Hello Agent"
@@ -633,22 +633,22 @@
       "intent": "goodbyes",
       "examples": [
         {
-          "text": "talk to you soon"
+          "text": "bye"
         },
         {
-          "text": "catch you later"
-        },
-        {
-          "text": "good bye"
+          "text": "c ya"
         },
         {
           "text": "see you"
         },
         {
-          "text": "bye"
+          "text": "good bye"
         },
         {
-          "text": "c ya"
+          "text": "catch you later"
+        },
+        {
+          "text": "talk to you soon"
         }
       ],
       "description": ""
@@ -658,6 +658,9 @@
       "examples": [
         {
           "text": "Do you have any courses on genetics?"
+        },
+        {
+          "text": "which data science course should I take"
         },
         {
           "text": "I want to learn Python"
@@ -670,9 +673,6 @@
         },
         {
           "text": "What courses do you recommend?"
-        },
-        {
-          "text": "which data science course should I take"
         }
       ],
       "description": ""
@@ -702,19 +702,40 @@
       "intent": "General_Negative_Feedback",
       "examples": [
         {
-          "text": "You are on my nerves"
+          "text": "Hate you"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Why are you stupid?"
         },
         {
           "text": "You are having delusions"
         },
         {
+          "text": "You are on my nerves"
+        },
+        {
           "text": "You are very frustrating"
         },
         {
-          "text": "You're too stupid"
+          "text": "You do not seem smart"
         },
         {
-          "text": "Why are you stupid?"
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
         },
         {
           "text": "Stupid"
@@ -729,37 +750,16 @@
           "text": "Quit annoying me"
         },
         {
-          "text": "You're really frustrating"
-        },
-        {
-          "text": "You do not seem smart"
-        },
-        {
           "text": "It is annoying"
-        },
-        {
-          "text": "Do not like you?"
-        },
-        {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "Hate you"
-        },
-        {
-          "text": "I do not like you"
-        },
-        {
-          "text": "I hate this!"
         },
         {
           "text": "I hate you"
         },
         {
-          "text": "Why are you so annoying?"
+          "text": "I hate this!"
         },
         {
-          "text": "You're really irritating"
+          "text": "I do not like you"
         }
       ],
       "description": "Express unfavorable feedback."
@@ -768,7 +768,7 @@
       "intent": "General_Security_Assurance",
       "examples": [
         {
-          "text": "Why would I trust this chat?"
+          "text": "Will my conversation remain secured?"
         },
         {
           "text": "Are you safe on hackers?"
@@ -843,7 +843,7 @@
           "text": "What safety measures are used to ensure that chat is secure?"
         },
         {
-          "text": "Will my conversation remain secured?"
+          "text": "Why would I trust this chat?"
         }
       ],
       "description": "Express concerns about the security of the bot."
@@ -852,40 +852,19 @@
       "intent": "Professional_Certificate_Recommendation",
       "examples": [
         {
-          "text": "Which data science certificate do you recommend?"
-        },
-        {
-          "text": "Which data science certificate?"
-        },
-        {
           "text": "Which computer science certificate?"
         },
         {
           "text": "do you offer a deep learning certificate?"
         },
         {
+          "text": "Which data science certificate do you recommend?"
+        },
+        {
           "text": "Can you recommend a professional certificate to me?"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "flower_recommendations",
-      "examples": [
-        {
-          "text": "flower suggestions for my girlfriend"
         },
         {
-          "text": "Which flowers for Valentine's Day?"
-        },
-        {
-          "text": "recommend me a bouquet"
-        },
-        {
-          "text": "Flower recommendations"
-        },
-        {
-          "text": "flower suggestions"
+          "text": "Which data science certificate?"
         }
       ],
       "description": ""
@@ -894,28 +873,19 @@
       "intent": "General_Human_or_Bot",
       "examples": [
         {
-          "text": "Are you a human or a bot?"
-        },
-        {
-          "text": "Are you a robot?"
+          "text": "Are you human?"
         },
         {
           "text": "Are you even real?"
         },
         {
-          "text": "Are you human?"
-        },
-        {
-          "text": "Are you real?"
-        },
-        {
-          "text": "How can you prove you are a human?"
-        },
-        {
-          "text": "Is this a computer?"
+          "text": "Are you a robot?"
         },
         {
           "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Am I chatting with a human?"
         },
         {
           "text": "Am I talking to Watson?"
@@ -927,7 +897,16 @@
           "text": "Am I talking to a person or am I talking to an AI?"
         },
         {
-          "text": "Am I chatting with a human?"
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
         }
       ],
       "description": "Ask if speaking to a human or a bot."
@@ -1042,142 +1021,6 @@
   ],
   "entities": [
     {
-      "entity": "location",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "Vancouver",
-          "synonyms": [
-            "Burnaby "
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Montreal",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Toronto",
-          "synonyms": [
-            "Warden Avenue"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Calgary",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "occasion",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "Funeral",
-          "synonyms": [
-            "condolences",
-            "sorrow",
-            "grief",
-            "sympathy",
-            "wake",
-            "Shiva",
-            "celebration of life"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Valentine's Day",
-          "synonyms": [
-            "February 14",
-            "valentines",
-            "Feb 14",
-            "February 14th",
-            "heart day"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Christmas",
-          "synonyms": [
-            "December 25",
-            "Dec 25",
-            "December 25th",
-            "Yule"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Graduation",
-          "synonyms": [
-            "graduating",
-            "grad",
-            "graduate",
-            "commencement"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Wedding",
-          "synonyms": [
-            "best man",
-            "bride",
-            "groom",
-            "bridesmaid"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Congratulations",
-          "synonyms": [
-            "award",
-            "success"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Birthday",
-          "synonyms": [
-            "b-day",
-            "bday",
-            "birth day"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Mother's Day",
-          "synonyms": [
-            "Mothering Sunday",
-            "Mum's Day",
-            "Mom's Day"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Get Well",
-          "synonyms": [
-            "sickness",
-            "ill",
-            "disease",
-            "cancer",
-            "hospital"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Anniversary",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Retirement",
-          "synonyms": []
-        }
-      ]
-    },
-    {
       "entity": "relationship",
       "values": [
         {
@@ -1276,14 +1119,12 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "project management",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "IT support",
+          "value": "data science",
           "synonyms": [
-            "technical support"
+            "ibm",
+            "data analytics",
+            "data analysis",
+            "data engineering"
           ]
         },
         {
@@ -1298,13 +1139,15 @@
         },
         {
           "type": "synonyms",
-          "value": "data science",
+          "value": "IT support",
           "synonyms": [
-            "ibm",
-            "data analytics",
-            "data analysis",
-            "data engineering"
+            "technical support"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "project management",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -1420,280 +1263,6 @@
       "parent": "node_8_1590612411280",
       "conditions": "#General_Greetings",
       "dialog_node": "node_2_1590612434212"
-    },
-    {
-      "type": "standard",
-      "title": "Collect Name",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Nice to meet you, $name. How can I help you? You can ask me about our Courses,Professional Certificate & Course recommendation"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "Welcome",
-      "context": {
-        "name": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
-      },
-      "conditions": "true",
-      "dialog_node": "node_7_1591211788743"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_2_1591306253129",
-      "event_name": "focus",
-      "dialog_node": "handler_4_1591306253129",
-      "previous_sibling": "handler_3_1591306253129"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_2_1591306253129",
-      "context": {
-        "city": "@location"
-      },
-      "conditions": "@location",
-      "event_name": "input",
-      "dialog_node": "handler_3_1591306253129"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Thank you, $name."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_1_1591301343307",
-      "conditions": "true",
-      "event_name": "filled",
-      "dialog_node": "handler_5_1591308674008",
-      "previous_sibling": "handler_4_1591301343340"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "What occasion are the flowers for?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_1_1591301343307",
-      "event_name": "focus",
-      "dialog_node": "handler_4_1591301343340",
-      "previous_sibling": "handler_3_1591301343340"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Sorry to ask again, $name, but what occasion are the flowers for?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_1_1591301343307",
-      "conditions": "true",
-      "event_name": "nomatch",
-      "dialog_node": "handler_1_1591308712312",
-      "previous_sibling": "handler_5_1591308674008"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_1_1591301343307",
-      "context": {
-        "occasion": "@occasion"
-      },
-      "conditions": "@occasion",
-      "event_name": "input",
-      "dialog_node": "handler_3_1591301343340"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Opt for a fun bouquet of flowers, choosing a colorful one from <a href=\"https://example.org/catalog\">our catalog</a>."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_5_1591301298012",
-      "conditions": "$occasion:Birthday",
-      "dialog_node": "response_4_1591301650146",
-      "previous_sibling": "response_4_1591301586801"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_5_1591301298012",
-      "variable": "$occasion",
-      "dialog_node": "slot_1_1591301343307",
-      "previous_sibling": "response_7_1591301685350"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "I'd recommend a beautiful mixed bouquet from <a href=\"https://example.org/catalog\">our catalog</a>."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_5_1591301298012",
-      "conditions": "true",
-      "dialog_node": "response_7_1591301685350",
-      "previous_sibling": "response_4_1591301673981"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Moms are awesome and worth celebrating every day. Consider our <a href=\"https://example.org/mothers-day\">Mother's Day special bouquet</a>."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_5_1591301298012",
-      "conditions": "$occasion == \"Mother's Day\"",
-      "dialog_node": "response_4_1591301673981",
-      "previous_sibling": "response_10_1591301659564"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "You can never go wrong with a dozen red roses."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_5_1591301298012",
-      "conditions": "$occasion == \"Valentine's Day\"",
-      "dialog_node": "response_10_1591301659564",
-      "previous_sibling": "response_4_1591301650146"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I'd go with an all-time classic: a beautiful Red Poinsettia."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_5_1591301298012",
-      "conditions": "$occasion:Christmas",
-      "dialog_node": "response_4_1591301586801"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1591306253119",
-      "variable": "$city",
-      "dialog_node": "slot_2_1591306253129",
-      "previous_sibling": "response_9_1591306253129"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Our Calgary store is located on the second floor of the Chinook Mall at 6455 Macleod Trail."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1591306253119",
-      "conditions": "$city:Calgary",
-      "dialog_node": "response_7_1591306253129",
-      "previous_sibling": "response_6_1591306253129"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Our Montreal store is located at 100 Park Avenue."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1591306253119",
-      "conditions": "$city:Montreal",
-      "dialog_node": "response_6_1591306253129",
-      "previous_sibling": "response_5_1591306253129"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Our store locations are listed on our site on the <a href=\"https://example.org/stores\">stores page</a>."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1591306253119",
-      "conditions": "true",
-      "dialog_node": "response_9_1591306253129",
-      "previous_sibling": "response_8_1591306253129"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Our Vancouver store is located at 883 Hastings St."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1591306253119",
-      "conditions": "$city:Vancouver",
-      "dialog_node": "response_8_1591306253129",
-      "previous_sibling": "response_7_1591306253129"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Our Toronto store is located at 123 Warden Avenue."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1591306253119",
-      "conditions": "$city:Toronto",
-      "dialog_node": "response_5_1591306253129"
     },
     {
       "type": "response_condition",
@@ -1850,111 +1419,6 @@
       "dialog_node": "response_4_1594707091713"
     },
     {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_8_1591302634020",
-      "event_name": "focus",
-      "dialog_node": "handler_3_1591302634038",
-      "previous_sibling": "handler_5_1591302634038"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_8_1591302634020",
-      "context": {
-        "city": "@location"
-      },
-      "conditions": "@location",
-      "event_name": "input",
-      "dialog_node": "handler_5_1591302634038"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Our Calgary store is open Monday to Friday from 9 am until 6 pm, except statutory holidays."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1590777961325",
-      "conditions": "$city:Calgary",
-      "dialog_node": "response_5_1591302689199",
-      "previous_sibling": "response_7_1591302679449"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Our hours of operations are listed on <a href=\"https://example.org/hours/\">our Hours page</a>."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1590777961325",
-      "conditions": "true",
-      "dialog_node": "response_3_1591303155232",
-      "previous_sibling": "response_3_1591302694245"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Our Montreal store is open Monday to Saturday from 9 am until 5 pm, except statutory holidays."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1590777961325",
-      "conditions": "$city:Montreal",
-      "dialog_node": "response_7_1591302679449",
-      "previous_sibling": "response_7_1591302658326"
-    },
-    {
-      "type": "slot",
-      "parent": "node_1_1590777961325",
-      "variable": "$city",
-      "dialog_node": "slot_8_1591302634020",
-      "previous_sibling": "response_3_1591303155232"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Our Vancouver store is open Monday to Saturday from 10 am until 6:30 pm, except statutory holidays."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1590777961325",
-      "conditions": "$city:Vancouver",
-      "dialog_node": "response_3_1591302694245",
-      "previous_sibling": "response_5_1591302689199"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Our Toronto store is open Monday to Saturday from 9 am until 6 pm, except statutory holidays."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1590777961325",
-      "conditions": "$city:Toronto",
-      "dialog_node": "response_7_1591302658326"
-    },
-    {
       "type": "standard",
       "title": "Course",
       "actions": [
@@ -1989,36 +1453,6 @@
       "previous_sibling": "Welcome"
     },
     {
-      "type": "frame",
-      "title": "Flower Recommendations",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#flower_recommendations",
-      "digress_in": "returns",
-      "dialog_node": "node_5_1591301298012",
-      "digress_out": "allow_all",
-      "previous_sibling": "node_2_1594706993832",
-      "digress_out_slots": "allow_all"
-    },
-    {
-      "type": "frame",
-      "title": "Hours of Operation",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#hours_info",
-      "digress_in": "returns",
-      "dialog_node": "node_1_1590777961325",
-      "digress_out": "allow_all",
-      "previous_sibling": "node_5_1591301298012",
-      "digress_out_slots": "allow_all"
-    },
-    {
       "type": "standard",
       "title": "Anything else",
       "output": {
@@ -2045,7 +1479,7 @@
       },
       "conditions": "anything_else",
       "dialog_node": "Anything else",
-      "previous_sibling": "node_1_1591306253119",
+      "previous_sibling": "node_2_1594706993832",
       "disambiguation_opt_out": true
     },
     {
@@ -2081,22 +1515,6 @@
       "previous_sibling": "node_7_1594707061169"
     },
     {
-      "type": "frame",
-      "title": "Location Information",
-      "output": {},
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#location_info",
-      "digress_in": "returns",
-      "dialog_node": "node_1_1591306253119",
-      "digress_out": "allow_all",
-      "previous_sibling": "node_1_1590777961325",
-      "digress_out_slots": "allow_all"
-    },
-    {
       "type": "standard",
       "title": "Welcome",
       "output": {
@@ -2104,7 +1522,7 @@
           {
             "values": [
               {
-                "text": "Hello, my name is AAKM and I'm a chatbot. What name can I call you by?"
+                "text": "Hello, my name is AAKM and I'm a chatbot. How can I help you? You can ask me about our Courses,Professional Certificate & Course recommendation"
               }
             ],
             "response_type": "text",
