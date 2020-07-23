@@ -7,4 +7,4 @@ https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb
 My git hub repo link is-
 https://github.com/SmartPracticeschool/llSPS-INT-3285-Intelligent-Customer-Help-Desk-with-Smart-Document-Understanding
 My Video Demo Link is-
-https://mega.nz/file/dld3AKLC#5tOeKSoNTdU0IQGCFa6lv1Wq8Iua8ypnKdnpF3p4hcA
+https://youtu.be/AO0Hp5jq67o
